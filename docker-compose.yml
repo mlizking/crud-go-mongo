@@ -1,0 +1,8 @@
+version: "3"
+services:
+  backend:
+    image: git-ai.inet-th.net:5555/golang-for-web-development-course/ep5-crud-mongodb:1.0.0
+    ports:
+      - 8999:3000
+    container_name: ep5-crud-deploy
+    restart: always
